@@ -3,8 +3,12 @@ spring:
     problemdetails:
       enabled: true
   mongodb:
-    uri: mongodb://root:-3vpl1372v-mUAJW0usBhNcd9Qrb2c2QDJpvnCS0gEJtdWm6@5c75a818-6ff2-4be4-acc0-950d0d6d124c.nam7.firestore.goog:443/medix-mongodb?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
-
+    host: localhost
+    port: 13500
+    database: cms
+    username: root
+    password: mongodb
+    authentication-database: admin
 server:
   port: 0
 
